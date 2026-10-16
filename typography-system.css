@@ -1,0 +1,19 @@
+/* Shared S.SUITE typography. Roles stay consistent across every section. */
+:root{--font-reading:Swiss,Arial,sans-serif;--font-editorial:Aperitif,Georgia,serif}
+body{font-family:var(--font-reading);font-size:19px;line-height:1.6}
+p,li,label,legend,input,textarea,select,button,nav,a,cite,figcaption,.eyebrow,.section-kicker,.leader-title,.leader-organization{font-family:var(--font-reading)!important}
+h1,h2,h3,h4,blockquote{font-family:var(--font-editorial)!important;font-weight:400!important;font-style:normal}
+h1 em,h2 em,h3 em,h4 em{font-family:inherit;font-style:italic;font-weight:400}
+h2,.company-wall-copy h3,.library-heading h2,.involvement h2{font-size:clamp(38px,4.3vw,58px)!important;line-height:1.12!important;letter-spacing:-.6px}
+.program-copy h3,.lists-copy h3{font-size:clamp(32px,3vw,40px)!important;line-height:1.16!important;letter-spacing:-.35px}
+.neela-quote blockquote{font-size:clamp(28px,3.2vw,42px)!important;line-height:1.35!important;letter-spacing:0}
+.neela-quote cite,.neela-quote cite strong,.neela-quote cite span{font-family:var(--font-reading)!important;font-style:normal}
+.team-section .leader h4{font-family:var(--font-editorial)!important;font-size:24px!important;font-weight:400!important;line-height:1.25!important;letter-spacing:0}
+.ssuite-card .indra-caption h3{font-family:var(--font-editorial)!important;font-size:32px!important;font-weight:400!important;letter-spacing:0}
+.eyebrow,.section-kicker,.program-copy .eyebrow{font-size:13px!important;font-weight:600;line-height:1.5!important;letter-spacing:1.2px!important}
+.button,.header-involvement-cta,.nav-cta{font-family:var(--font-reading)!important;font-size:18px!important;font-weight:600!important;font-style:normal;line-height:1.35!important;letter-spacing:0!important}
+.program-tabs button{font-family:var(--font-reading)!important;font-size:18px!important;line-height:1.4!important;letter-spacing:0}
+.community-stat-strip strong,.numbers-grid strong,.membership-lightbox-info .dues .price{font-family:var(--font-editorial)!important;font-weight:400!important}
+.lightbox-heading h2,.membership-lightbox-info h2{font-size:clamp(32px,3.5vw,42px)!important;line-height:1.18!important}
+.team-section .leader .leader-title,.team-section .leader .leader-organization{font-size:16px!important;line-height:1.5!important}
+@media(max-width:700px){body{font-size:18px}.program-tabs button{font-size:16px!important}.eyebrow,.section-kicker,.program-copy .eyebrow{font-size:12px!important}.button,.header-involvement-cta,.nav-cta{font-size:17px!important}}

@@ -1,0 +1,36 @@
+.leadership-selector{display:flex;align-items:center;gap:22px;margin-top:30px}
+.leadership-selector label{font:14px/1.5 Swiss,Arial,sans-serif;color:#615e59}
+.leadership-selector select{font:16px/1.4 Swiss,Arial,sans-serif;color:#191919;background:#fff;border:1px solid #bdb6ab;border-radius:0;padding:15px 42px 15px 16px;max-width:100%;min-width:280px}
+#leadership [hidden]{display:none!important}
+.team-section .leader-row.cofounders{grid-template-columns:repeat(5,minmax(0,1fr))}
+.team-section .leader img{height:auto!important;aspect-ratio:4/5!important;object-fit:cover;object-position:center 28%}
+.team-section .leader h4{font:24px/1.2 Aperitif,Georgia,serif;min-height:58px;margin:20px 16px 0}
+.team-section .leader .leader-title{font:14px/1.5 Swiss,Arial,sans-serif;margin:10px 16px 0}
+.team-section .leader .leader-organization{font:13px/1.5 Swiss,Arial,sans-serif;margin:6px 16px 0}
+.bottom-invitation-actions{display:flex;flex-wrap:wrap;gap:16px;margin-top:30px}
+.bottom-invitation-actions .button{margin:0;min-width:220px;justify-content:space-between}
+.bottom-invitation-actions .outline{background:transparent;color:#191919;border:1px solid #191919}
+.membership-lightbox-info{padding:26px 0;margin-bottom:28px;border-block:1px solid #d7d0c5}
+.membership-lightbox-info[hidden]{display:none}
+.membership-lightbox-info h2{font:32px/1.2 Aperitif,Georgia,serif;margin:0 0 20px}
+.membership-lightbox-info .section-kicker{display:none}
+.membership-lightbox-info .benefits{font:16px/1.7 Swiss,Arial,sans-serif;padding-left:20px}
+.membership-lightbox-info p{font-size:16px;line-height:1.65;margin-top:16px}
+.membership-lightbox-info .dues{padding:22px;background:#eee8df;margin-top:22px;border:0}
+.membership-lightbox-info .dues .price{font:42px/1.2 Aperitif,Georgia,serif}
+.membership-lightbox-info .price span{font:15px Swiss,Arial,sans-serif;margin-left:10px}
+.membership-lightbox-info .small-note{font-size:13px}
+@media(max-width:1000px){.team-section .leader-row.cofounders{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.team-section .leader-row.cofounders{grid-template-columns:repeat(2,minmax(0,1fr))}.leadership-selector{display:block}.leadership-selector label{display:block;margin-bottom:10px}.leadership-selector select{width:100%;min-width:0}.team-section .leader h4{font-size:22px;min-height:54px}.bottom-invitation-actions{flex-direction:column}.bottom-invitation-actions .button{width:100%}.membership-lightbox-info h2{font-size:28px}}
+.participation-hub #involvement{background:#000;color:#fff}
+.participation-hub #involvement .section-kicker,
+.participation-hub #involvement h2,
+.participation-hub #involvement h2 em,
+.participation-hub #involvement .involvement-heading>p,
+.participation-hub #involvement .contact-link{color:#fff}
+.participation-hub #involvement .bottom-invitation-actions .dark{background:#fff;color:#000;border:1px solid #fff}
+.participation-hub #involvement .bottom-invitation-actions .outline{background:transparent;color:#fff;border:1px solid #fff}
+.participation-hub #involvement .bottom-invitation-actions .dark:hover{background:#e6e6e6;border-color:#e6e6e6}
+.participation-hub #involvement .bottom-invitation-actions .outline:hover{background:#fff;color:#000}
+.participation-hub #involvement a:focus-visible,
+.participation-hub #involvement button:focus-visible{outline:2px solid #fff;outline-offset:5px}

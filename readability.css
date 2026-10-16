@@ -1,0 +1,28 @@
+@import url('typography-system.css');
+/* One shared reading scale, including narrow screens. */
+body{font-size:18px}
+header nav,header nav a{font-size:16px}
+.eyebrow,.section-kicker,.program-copy .eyebrow{font-size:13px;line-height:1.5;letter-spacing:1.25px}
+.about-body>p:not(.lead),.community-copy>p:not(.eyebrow):not(.lead),.company-wall-copy>p:not(.eyebrow),.section-heading>p,.library-heading>p,.ssuite>div>p:not(.eyebrow),.lists-copy p,.involvement-heading>p{font-size:19px;line-height:1.65}
+.principles p,.community-point p,.program-copy>p:not(.eyebrow),.ecosystem p:not(.eyebrow){font-size:18px;line-height:1.65}
+.principles span,.community-point h4{font-size:16px;line-height:1.5}
+.program-tabs button{font-size:18px;line-height:1.4}
+.program-outcome,.program-link,.text-link,.invitation{font-size:16px;line-height:1.6}
+.company-wall-copy .community-stat-strip span{font-size:16px;line-height:1.5}
+.company-wall-copy .community-stat-strip>p,.fineprint,.small-note,footer .footer-note{font-size:14px;line-height:1.6}
+.team-section .leader .leader-title,.team-section .leader .leader-organization{font-size:16px;line-height:1.5}
+.leadership-selector label{font-size:16px}
+.leadership-selector select{font-size:18px}
+.button,.header-involvement-cta,.nav-cta{font-size:17px;line-height:1.35;min-height:54px;letter-spacing:0}
+/* The invitation link retains the membership anchor, not section padding. */
+.participation-hub #involvement .bottom-invitation-actions .button{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-width:260px;width:auto;max-width:100%;min-height:60px;height:auto;padding:18px 26px;margin:0;font:600 18px/1.35 Swiss,Arial,sans-serif;text-align:left;white-space:normal;border-radius:0;cursor:pointer}
+.participation-hub #involvement .bottom-invitation-actions .button.dark{background:#fff;color:#000;border:1px solid #fff}
+.participation-hub #involvement .bottom-invitation-actions .button.outline{background:transparent;color:#fff;border:1px solid #fff}
+.participation-hub #involvement .contact-link{display:inline-block;font-size:16px;line-height:1.5;margin:24px 0 0}
+.interest-lightbox .lightbox-heading p:not(.eyebrow),.membership-lightbox-info p,.membership-lightbox-info .benefits{font-size:18px;line-height:1.65}
+.interest-lightbox label,.interest-lightbox legend,.interest-lightbox .interest-options label{font-size:17px;line-height:1.5}
+.interest-lightbox input:not([type=checkbox]),.interest-lightbox textarea{font-size:18px;line-height:1.5}
+.interest-lightbox .small-note,.interest-lightbox .form-notice,.membership-lightbox-info .small-note{font-size:14px;line-height:1.6}
+footer>p,footer>a{font-size:16px;line-height:1.6}
+@media(max-width:1100px){header nav{gap:16px}header nav,header nav a{font-size:15px}.header-involvement-cta{font-size:16px}}
+@media(max-width:700px){.participation-hub #involvement .bottom-invitation-actions{display:grid;grid-template-columns:1fr;gap:14px}.participation-hub #involvement .bottom-invitation-actions .button{width:100%;min-width:0;padding:18px 22px}.program-tabs button{font-size:16px}.eyebrow,.section-kicker,.program-copy .eyebrow{font-size:12px}.editorial-opening .type-hero-action .button{font-size:17px}.header-involvement-cta{font-size:16px;min-height:48px}.program-copy{overflow:visible}}

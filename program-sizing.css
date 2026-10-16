@@ -1,0 +1,3 @@
+#program-panel{height:535px;min-height:535px;grid-template-rows:minmax(0,1fr)}.program-image{min-height:0;height:100%}.program-image img{height:100%;width:100%;object-fit:cover}.program-copy{min-height:0;overflow-y:auto}.program-copy .program-outcome{flex-shrink:0}.program-tabs button{min-height:72px}
+@media(max-width:850px){#program-panel{height:770px;min-height:770px;grid-template-rows:210px minmax(0,1fr)}.program-image{height:210px}.program-copy{overflow-y:auto}}
+@media(max-width:600px){#program-panel{height:785px;min-height:785px;grid-template-rows:230px minmax(0,1fr)}.program-image{height:230px}.program-tabs button{min-height:0}}

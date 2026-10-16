@@ -1,0 +1,14 @@
+.neela-quote-section{background:#101010;color:#fff;border:0;padding:72px 0}
+.neela-quote-section .neela-photo-layout{display:flex;flex-direction:column;gap:30px;align-items:center;text-align:center}
+.neela-quote-section .neela-quote{max-width:900px;margin:0;order:1;display:contents}
+.neela-quote-section .neela-quote>.eyebrow{order:1}
+.neela-quote-section .neela-quote blockquote{order:2;max-width:900px}
+.neela-quote-section .neela-quote figcaption{order:4}
+.neela-quote-section .neela-quote>.eyebrow{color:#ccc;margin:0 0 24px;max-width:none}
+.neela-quote-section .neela-quote blockquote{color:#fff;margin:0;font-size:clamp(27px,3.2vw,42px);line-height:1.35}
+.neela-quote-section .neela-quote figcaption{display:flex;flex-direction:column;align-items:center;gap:9px;margin-top:27px;color:#fff}
+.neela-quote-section .neela-quote figcaption strong{font-size:24px;line-height:1.3}
+.neela-quote-section .neela-quote figcaption span{color:#ddd;max-width:650px;font-size:18px;line-height:1.6}
+.neela-quote-section .neela-community-photo{order:3;margin:0 auto;width:144px;height:144px;aspect-ratio:1;border-radius:50%;overflow:hidden;flex:none;align-self:center}
+.neela-quote-section .neela-community-photo img{display:block;width:100%;height:100%;aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:center 25%;filter:grayscale(1)}
+@media(max-width:600px){.neela-quote-section{padding:50px 0}.neela-quote-section .neela-photo-layout{gap:24px}}

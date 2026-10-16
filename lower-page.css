@@ -1,0 +1,21 @@
+.amna-quote-section{background:#171717;color:#faf8f4;width:100%;max-width:none;margin:0;padding:56px 0;border:0!important}
+.amna-quote-section .amna-inline-quote{width:min(1180px,calc(100% - 96px));margin:0 auto!important;max-width:1180px}
+.amna-inline-quote blockquote{color:#faf8f4}
+.amna-inline-quote figcaption strong{color:#fff}
+.amna-inline-quote figcaption span{color:#ccc6bc;line-height:1.6;display:block;margin-top:7px}
+.participation-hub{border:0!important;background:#faf8f4}
+.participation-hub .hub-heading{padding-top:42px}
+.participation-tabs{border:0!important;gap:10px!important;padding:6px;background:#ece8e1;width:max-content;max-width:100%;border-radius:4px}
+.participation-tabs button{border:0!important;padding:13px 24px!important;border-radius:2px;color:#625d56}
+.participation-tabs button[aria-selected=true]{background:#fff;color:#191919;box-shadow:0 1px 5px #0000000d}
+.participation-hub .participation-panel{border:0!important;padding-top:42px;padding-bottom:56px}
+.participation-hub .membership-grid{gap:80px}
+.participation-hub .benefits{border:0!important;margin-top:26px;display:grid;gap:15px}
+.participation-hub .benefits li{border:0!important;padding-block:0!important;line-height:1.6}
+.participation-hub .membership-process{border:0!important;padding-top:0!important;margin-top:26px;line-height:1.7}
+.participation-hub .dues{background:#f0ece5;padding:34px;border:0!important}
+.participation-hub .dues>p{border:0!important}
+.participation-hub .dues .small-note{line-height:1.65;margin-top:20px}
+.participation-hub .involvement-heading{border:0!important}
+@media(max-width:800px){.participation-hub .membership-grid{gap:36px}.amna-quote-section .amna-inline-quote{width:calc(100% - 48px)}}
+@media(max-width:600px){.amna-quote-section{padding:38px 0}.amna-quote-section .amna-inline-quote{width:calc(100% - 40px)}.amna-inline-quote blockquote{font-size:27px;line-height:1.4}.participation-hub .hub-heading{padding-top:28px}.participation-tabs{width:100%;justify-content:space-between;gap:0!important}.participation-tabs button{font-size:14px;padding:13px 12px!important}.participation-hub .participation-panel{padding-top:30px;padding-bottom:40px}.participation-hub .dues{padding:27px 24px}}

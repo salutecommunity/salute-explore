@@ -1,0 +1,22 @@
+.community-company-wall{background:#fff;color:#191919;padding:70px max(6%,calc((100% - 1280px)/2));display:grid;grid-template-columns:1fr 1.25fr;gap:9%;align-items:center}
+.company-wall-copy h3{font:clamp(40px,4.4vw,64px)/1.07 Aperitif,Georgia,serif;letter-spacing:-1px;margin:24px 0}
+.company-wall-copy>p{font-size:17px;line-height:1.8;color:#615e59;max-width:390px}
+.company-wall-copy>.eyebrow{font-size:11px;letter-spacing:1.2px}
+.company-wall-copy>.company-wall-provenance{font-size:11px;line-height:1.7;margin-top:25px;max-width:400px}
+.community-company-wall figure{margin:0;background:#fff;padding:10px}
+.community-company-wall img{display:block;width:100%;height:auto;max-height:530px;object-fit:contain}
+.standalone-map{padding-block:6px}
+.standalone-map>figure{margin:0}
+.participation-hub{padding:0;background:#faf8f4}
+.participation-hub #membership{padding:65px 0;background:#faf8f4}
+.participation-hub #leadership{background:#eee9e1;padding:65px max(6%,calc((100% - 1280px)/2));width:100%;max-width:none;margin:0}
+.participation-hub #involvement{background:#e6e9df;padding:65px max(6%,calc((100% - 1280px)/2));width:100%;max-width:none;margin:0}
+.participation-hub #leadership .leader{background:#faf8f4}
+.participation-hub #leadership .team-tabs button{background:#faf8f4}
+.participation-hub #leadership .team-tabs button[aria-selected=true]{background:#191919;color:#faf8f4}
+.participation-hub #involvement .interest-disclosure{border:0;background:#faf8f4;margin-top:30px}
+.participation-hub #involvement .interest-disclosure>summary{border:0;padding:24px 26px}
+.participation-hub #involvement .form-container{padding:0 26px 26px}
+.participation-hub #involvement .contact-link{margin-top:24px;display:inline-block;border:0}
+@media(max-width:800px){.community-company-wall{gap:6%;padding-block:50px}.company-wall-copy h3{font-size:43px}.company-wall-copy>p{font-size:15px}.participation-hub #membership,.participation-hub #leadership,.participation-hub #involvement{padding-block:45px}}
+@media(max-width:600px){.community-company-wall{grid-template-columns:1fr;gap:26px;padding:42px 20px}.company-wall-copy h3{font-size:40px}.company-wall-copy>p{max-width:none}.company-wall-copy>.company-wall-provenance{font-size:10px;margin-top:18px}.community-company-wall figure{padding:0}.participation-hub #membership{padding-block:38px}.participation-hub #leadership,.participation-hub #involvement{padding:38px 20px}.participation-hub #involvement .interest-disclosure>summary{padding:20px}.participation-hub #involvement .form-container{padding:0 20px 20px}}
